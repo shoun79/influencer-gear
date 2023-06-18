@@ -16,6 +16,7 @@ body {
 }
 
 /* header  */
+
 nav {
     display: flex;
     align-items: center;
@@ -241,6 +242,10 @@ footer p {
 
 /* mobile-device */
 @media screen and (max-width:688px) {
+    header {
+        padding: 0 10px;
+    }
+
     .container {
         width: 100%;
         padding-right: 0;
